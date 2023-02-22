@@ -1,7 +1,7 @@
 # simple_shell
 0x16. C - Simple Shell
 C
-Group project
+# Group project
 Syscall
  By: Julien Barbier
  Weight: 10
@@ -9,7 +9,7 @@ Syscall
  Project will start Feb 8, 2023 6:00 AM, must end by Feb 23, 2023 6:00 AM
  Checker was released at Feb 22, 2023 1:12 AM
  An auto review will be launched at the deadline
-Concepts
+# Concepts
 For this project, we expect you to look at these concepts:
 
 Everything you need to know to start coding your own shell
@@ -17,7 +17,7 @@ Approaching a Project
 Background Context
 Write a simple UNIX command interpreter.
 
-Resources
+# Resources
 Read or watch:
 
 Unix shell
@@ -30,7 +30,7 @@ sh (Run sh as well)
 Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
-General
+# General
 Who designed and implemented the original Unix operating system
 Who wrote the first version of the UNIX shell
 Who invented the B programming language (the direct predecessor to the C programming language)
@@ -50,7 +50,7 @@ You are tasked to come up with solutions for the tasks below yourself to meet wi
 You will not be able to meet the objectives of this or any following project by copying and pasting someone else’s work.
 You are not allowed to publish any content of this project.
 Any form of plagiarism is strictly forbidden and will result in removal from the program.
-Requirements
+# Requirements
 General
 Allowed editors: vi, vim, emacs
 All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
@@ -85,7 +85,7 @@ $ echo "qwerty" | ./././hsh
 ./././hsh: 1: qwerty: not found
 $
 
-List of allowed functions and system calls
+# List of allowed functions and system calls
 access (man 2 access)
 chdir (man 2 chdir)
 close (man 2 close)
@@ -117,7 +117,7 @@ waitpid (man 2 waitpid)
 wait3 (man 2 wait3)
 wait4 (man 2 wait4)
 write (man 2 write)
-Compilation
+# Compilation
 Your shell will be compiled this way:
 
 gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
@@ -143,5 +143,5 @@ $ cat test_ls_2 | ./hsh
 hsh main.c shell.c test_ls_2
 hsh main.c shell.c test_ls_2
 $
-Checks
+#Checks
 The Checker will be released at the end of the project (1-2 days before the deadline). We strongly encourage the entire class to work together to create a suite of checks covering both regular tests and edge cases for each task. See task 8. Test suite.
